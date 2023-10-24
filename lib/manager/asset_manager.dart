@@ -9,29 +9,21 @@ class AssetManager {
     'AngryPig/Walk (36x30).png',
     'Bat/Flying (46x30).png',
     'Rino/Run (52x34).png',
-    'parallax/plx-1.png',
-    'parallax/plx-2.png',
-    'parallax/plx-3.png',
-    'parallax/plx-4.png',
-    'parallax/plx-5.png',
-    'parallax/plx-6.png',
+    'game/bg.png',
+    'game/road.png',
   ];
 
   /// Audio assets
   static const audios = [
-    '8BitPlatformerLoop.wav',
-    'hurt7.wav',
-    'jump14.wav',
+    'start.mp3',
+    'hurt.mp3',
+    'jump.mp3',
   ];
 
   /// Parallax background
   static const background = [
-    'parallax/plx-1.png',
-    'parallax/plx-2.png',
-    'parallax/plx-3.png',
-    'parallax/plx-4.png',
-    'parallax/plx-5.png',
-    'parallax/plx-6.png',
+    'game/bg.png',
+    'game/road.png',
   ];
 
   static final animation = {

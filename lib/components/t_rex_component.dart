@@ -95,7 +95,7 @@ class TRexComponent extends SpriteAnimationGroupComponent<TRexAnimationState>
     if (isOnGround) {
       speedY = -300;
       current = TRexAnimationState.idle;
-      AudioManager.instance.playSfx('jump14.wav');
+      AudioManager.instance.playSfx('jump.mp3');
     }
   }
 
@@ -103,7 +103,7 @@ class TRexComponent extends SpriteAnimationGroupComponent<TRexAnimationState>
   /// Play the hit sound & reduces the player life by 1
   void hit() {
     isHit = true;
-    AudioManager.instance.playSfx('hurt7.wav');
+    AudioManager.instance.playSfx('hurt.mp3');
     current = TRexAnimationState.hit;
     _hitTimer.start();
     playerData.lives -= 1;

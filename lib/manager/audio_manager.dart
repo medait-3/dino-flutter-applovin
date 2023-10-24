@@ -23,7 +23,7 @@ class AudioManager {
   }
 
   // Starts the given audio file as BGM
-  void startBgm([String filename = '8BitPlatformerLoop.wav']) {
+  void startBgm([String filename = 'start.mp3']) {
     if (settings.bgm) {
       FlameAudio.bgm.play(filename, volume: 0.5);
     }

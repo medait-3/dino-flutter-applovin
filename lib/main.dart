@@ -44,8 +44,7 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'T-rex',
       theme: ThemeData(
-        fontFamily: 'AudioWide',
-        primaryColor: Colors.green,
+        fontFamily: 'a',
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: Scaffold(

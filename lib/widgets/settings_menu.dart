@@ -158,7 +158,7 @@ class _SettingsMenuState extends State<SettingsMenu> {
                       builder: (context, bgm, __) {
                         return SwitchListTile(
                           title: const Text(
-                            'Music',
+                            'Sounds',
                             style: TextStyle(
                               fontSize: 28,
                               color: Colors.white,

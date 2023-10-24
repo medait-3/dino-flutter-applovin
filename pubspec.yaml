@@ -71,16 +71,16 @@ flutter:
 
   assets:
     - assets/images/
-    - assets/images/parallax/
+    - assets/images/game/
     - assets/images/AngryPig/
     - assets/images/Bat/
     - assets/images/Rino/
     - assets/audio/
 
   fonts:
-    - family: Audiowide
+    - family: a
       fonts:
-        - asset: assets/fonts/Audiowide/Audiowide-Regular.ttf
+        - asset: assets/fonts/a.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:
